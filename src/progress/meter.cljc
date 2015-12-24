@@ -1,5 +1,6 @@
 (ns progress.meter
-  "Nice console progress meters for sequences")
+  "Nice console progress meters for sequences.
+   Inspired by python's tqdm")
 
 (def bar-width 10)
 
@@ -10,7 +11,7 @@
 (defn epoch
   []
   (quot #?(:clj  (System/currentTimeMillis)
-           :cljs (js.Date/now))
+           :cljs (.now js/Date))
         1000))
 
 (defn hms

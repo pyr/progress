@@ -5,7 +5,7 @@ This is essentialy python tqdm in clojure.
 ## Usage
 
 ```clojure
-[[spootnik/progress "0.1.2"]]
+[[spootnik/progress "0.1.3"]]
 ```
 
 ```clojure

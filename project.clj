@@ -1,4 +1,4 @@
-(defproject spootnik/progress "0.1.0"
+(defproject spootnik/progress "0.1.3"
   :description "ascii progress meters"
   :url "https://github.com/pyr/progress"
   :license {:name "Eclipse Public License"
